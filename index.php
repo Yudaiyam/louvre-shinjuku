@@ -179,8 +179,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Main visual -->
             <div class="mainvisual">
               <picture class="">
-				<source media="(min-width: 769px)" srcset="images/kv_pc_ver05-09.webp">
-				<img src="images/kv_sp_ver05-09.webp" alt="理想を叶える歯科治療">
+				<source media="(min-width: 769px)" srcset="images/kv_pc_ver05-10.webp">
+				<img src="images/kv_sp_ver05-10.webp" alt="理想を叶える歯科治療">
 			  </picture>
             </div>
             <!-- End main visual -->
