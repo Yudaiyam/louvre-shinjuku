@@ -304,15 +304,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p class="txt">新宿の歯医者「新宿ルーブル歯科・矯正歯科」は、<span class="line-txt line-txt-inside">渋谷にも医院を構える法人歯科医院</span>です。当院のスタッフは、患者さまの歯やお口周りの健康をお守りするために日々研鑽を積み、患者さまのお悩みに心から向き合い、<span class="line-txt line-txt-inside">長持ちする治療をご提供</span>しています。どのグループ医院にご来院いただいてもスタッフの知識や技術力、院内環境や医療設備は常に高いレベルを維持しているので、安心して治療を受けていただくことができます。また、「一人でも多くの患者さまに高品質の治療をご提供したい」と考え、<span class="line-txt line-txt-inside">価格はできる限り抑えて</span>います。当院グループの歯科治療を通して、皆さまの健康寿命を底上げするお手伝いができれば嬉しい限りです。
                                 </p>
                                 <div class="box8-certificates">
-                                <div class="box8-certificate"><img src="./images/certificate_img01.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img02.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img03.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img04.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img05.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img06.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img07.webp" loading="lazy" alt=""></div>
-                                <div class="box8-certificate"><img src="./images/certificate_img08.webp" loading="lazy" alt=""></div>
-                            </div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img01.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img02.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img03.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img04.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img05.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img06.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img07.webp" loading="lazy" alt=""></div>
+                                    <div class="box8-certificate"><img src="./images/certificate_img08.webp" loading="lazy" alt=""></div>
+                                </div>
                             </div>
                             
                         </div>

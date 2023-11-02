@@ -3699,14 +3699,14 @@ body {
   right: 20px;
 }
 
-.box8-certificates {
+.box8-desc .box8-certificates {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.box8-certificates .box8-cerficicate {
+.box8-desc .box8-certificates .box8-cerficicate {
   width: 200px;
 }
 
