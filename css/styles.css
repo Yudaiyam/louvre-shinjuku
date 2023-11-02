@@ -3699,6 +3699,17 @@ body {
   right: 20px;
 }
 
+.box8-certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box8-certificates .box8-cerficicate {
+  width: 200px;
+}
+
 /* End box 8 */
 
 /* Box 9 */

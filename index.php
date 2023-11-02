@@ -305,6 +305,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </p>
                                 
                             </div>
+                            <div class="box8-certificates">
+                                <div class="box8-certificate"><img src="./images/certificate_img01.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img02.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img03.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img04.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img05.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img06.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img07.webp" loading="lazy" alt=""></div>
+                                <div class="box8-certificate"><img src="./images/certificate_img08.webp" loading="lazy" alt=""></div>
+                            </div>
                         </div>
                         <div class="frame-link center pc">
                             <a href="./clinic/staff.html" class="custom-link">理事長・院長あいさつ</a>
