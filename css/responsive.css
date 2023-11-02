@@ -1310,13 +1310,6 @@
         color: #fff;
     } */
 
-  .box8-desc .box8-certificates {
-    justify-content: center;
-  }
-  .box8-desc .box8-certificates .box8-certificate {
-    width: 100px;
-  }
-
   .list-content {
     position: relative;
     flex-direction: column;

@@ -3521,7 +3521,7 @@ body {
   content: "";
   position: absolute;
   width: 1683px;
-  height: 600px;
+  height: 335px;
   background-color: #e6e6e6;
   z-index: -1;
   top: calc(50% - 131px);
@@ -3697,19 +3697,6 @@ body {
 
 .box8-bg .frame-link a::before {
   right: 20px;
-}
-
-.box8-desc .box8-certificates {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
-  margin-bottom: 32px;
-}
-
-.box8-desc .box8-certificates .box8-certificate {
-  width: 120px;
 }
 
 /* End box 8 */
