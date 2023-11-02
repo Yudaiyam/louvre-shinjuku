@@ -3521,7 +3521,7 @@ body {
   content: "";
   position: absolute;
   width: 1683px;
-  height: 335px;
+  height: 600px;
   background-color: #e6e6e6;
   z-index: -1;
   top: calc(50% - 131px);
