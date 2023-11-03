@@ -1360,14 +1360,14 @@
   text-decoration: underline;
 }
 
-.under .certificates {
+.under-info .certificates {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: stretch;
 }
 
-.under .certificates .certificate {
+.under-info .certificates .certificate {
   width: 120px;
 }
 
