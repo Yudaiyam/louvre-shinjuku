@@ -1363,12 +1363,14 @@
 .under-info .certificates {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: stretch;
+  gap: 24px;
+  margin-top: 32px;
 }
 
 .under-info .certificates .certificate {
-  width: 120px;
+  width: 200px;
 }
 
 .under-post .h3 {
