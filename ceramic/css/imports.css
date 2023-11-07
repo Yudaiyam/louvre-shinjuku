@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import "base.css";
+@import "fonts.css";
+@import "styles.css";
+@import "responsive.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Sacramento&display=swap');
+/*font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Sacramento', cursive;*/
+
+

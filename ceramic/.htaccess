@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteBase /
+
+# SSLリダイレクト (ssl.なし/wwwあり)
+RewriteCond %{ENV:HTTPS} !^on$ [OR]
+RewriteCond %{HTTP_HOST} ^ssl\. [OR]
+RewriteCond %{HTTP_HOST} !^www.
+RewriteRule ^(.*)$ https://www.shinjuku-louvre-dental.com/ceramic/$1 [R=301,L]
+
+# www あり
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.shinjuku-louvre-dental.com/ceramic/$1 [R=301,L]
+
+# index.(html|php) なし
+RewriteRule ^(.*)index\.(php|html?)$ https://www.shinjuku-louvre-dental.com/ceramic/$1 [R=301,L]
