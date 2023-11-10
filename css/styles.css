@@ -1861,6 +1861,44 @@ body {
   text-align: center;
 }
 
+/* バナー */
+.banner-container {
+  max-width: 800px;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 85px;
+}
+
+.banner-container-top {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.banner-container-top .banner-img {
+  width: 100%;
+}
+.banner-container-middle {
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 60px;
+}
+
+.banner-container-middle .banner-img {
+  width: 100%;
+}
+.banner-container-bottom {
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container-bottom .banner-img {
+  width: 100%;
+}
+
 .box5-bnr .box-list-link a::before {
   right: 23px;
 }
