@@ -1895,12 +1895,17 @@ body {
   align-items: center;
   gap: 20px;
 }
+.banner-img {
+  transition: 0.3s all ease;
+}
+.banner-img:hover {
+  transform: scale(1.05);
+}
 .banner-img a {
   transition: 0.3s all ease;
 }
 .banner-img a:hover {
   opacity: 0.8;
-  transform: scale(1.05);
 }
 .box5-bnr .box-list-link a::before {
   right: 23px;
