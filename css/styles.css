@@ -1868,7 +1868,7 @@ body {
 }
 
 .banner-container-top {
-  max-width: 800px;
+  max-width: 600px;
   width: 80%;
   margin-inline: auto;
   margin-bottom: 30px;
@@ -1878,8 +1878,8 @@ body {
   width: 100%;
 }
 .banner-container-middle {
-  max-width: 800px;
-  width: 80%;
+  max-width: 600px;
+  width: 90%;
   margin-inline: auto;
   margin-bottom: 30px;
 }
@@ -1888,7 +1888,7 @@ body {
   width: 100%;
 }
 .banner-container-bottom {
-  width: 80%;
+  width: 90%;
   margin-inline: auto;
   display: flex;
   justify-content: center;
