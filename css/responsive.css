@@ -589,6 +589,18 @@
     right: 0;
   }
 
+  /* バナー */
+
+  .banner-container-top {
+    margin-bottom: 20px;
+  }
+  .banner-container-middle {
+    margin-bottom: 20px;
+  }
+  .banner-container-bottom {
+    flex-direction: column;
+  }
+
   .bg-box2 {
     flex-direction: column;
     margin-bottom: 40px;
