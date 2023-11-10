@@ -1,0 +1,455 @@
+.inner {
+  width: 1040px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#footer address {
+  padding: 14px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.box13-bg a {
+  color: #333;
+  font-weight: 500;
+}
+.box13-bg .desc {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.ft-menu-group-tt {
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  display: block;
+}
+.ft-menu-group-tt::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 8px);
+  background-color: #333;
+  top: -4px;
+  bottom: 0;
+  left: -20px;
+  margin: auto;
+}
+.ft-menu-group-tt .jp {
+  font-family: "Noto Serif JP", serif;
+  font-size: 120%;
+}
+.ft-menu {
+  display: flex;
+}
+.ft-menu .ft-menu-item:nth-child(1) {
+  margin-right: 108px;
+}
+.ft-menu .ft-menu-item:nth-child(2) {
+  margin-right: 118px;
+}
+.ft-menu .ft-menu-item:nth-child(3) {
+  margin-right: 100px;
+}
+.box13-bg {
+  padding: 63px 0 45px;
+}
+.ft-menu-item .top {
+  font-size: 15px;
+  margin-top: 52px;
+  display: block;
+  font-weight: 600;
+}
+.box14-content {
+  background-color: #333333;
+}
+.ft-submenu a {
+  font-size: 15px;
+  white-space: nowrap;
+}
+.ft-submenu li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.ft-menu-group-tt .en {
+  display: block;
+  margin-bottom: 10px;
+}
+.box13-bg .ft-menu-group-tt .en {
+  margin-bottom: 5px;
+}
+.box13-bg .ft-menu-group-tt::before {
+  height: calc(100% - 22px);
+  top: 5px;
+}
+.box14-bg {
+  position: relative;
+  z-index: 1;
+  padding: 160px 0 0;
+  height: 380px;
+}
+.box14-bg::before {
+  content: "";
+  position: absolute;
+  width: 1920px;
+  height: 380px;
+  background-color: #333;
+  bottom: 0;
+  left: calc(50% - 960px);
+  z-index: -1;
+}
+.box14-bg .desc {
+  padding: 49px 0 39px;
+  margin-top: -45px;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 2.15;
+  margin-bottom: 29px;
+  max-width: 900px;
+  margin: -45px auto 0;
+}
+.social-txt {
+  position: relative;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  letter-spacing: 0.02em;
+}
+.social-txt::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height: 1px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.social-box {
+  background-color: #fff;
+  border: 2px solid #51ba65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  padding: 10px;
+  color: inherit;
+}
+.insta .social-box {
+  border: none;
+  background: url("https://www.shinjuku-louvre-dental.com/images/border-insta.jpg")
+    center center no-repeat;
+}
+.youtube .social-box,
+.tiktok .social-box {
+  border: none;
+}
+.social-box .ico {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+.social-box .ico span {
+  position: relative;
+  padding-left: 45px;
+  letter-spacing: 0.05em;
+}
+.social-box .ico span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.social-flex {
+  font-size: 16px;
+  line-height: 1;
+}
+.line .social-box .ico span::before {
+  background: url("https://www.shinjuku-louvre-dental.com/images/ico-line.png")
+    center center no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.insta .social-box .ico span::before {
+  background: url("https://www.shinjuku-louvre-dental.com/images/ico-insta.png")
+    center center no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.insta .social-box .ico span {
+  padding-left: 40px;
+}
+.list-social {
+  display: flex;
+  margin-bottom: 51px;
+}
+.list-social li {
+  width: calc((100% / 4) - 20px);
+  font-family: "Noto Sans JP", sans-serif;
+}
+.list-social li:not(:last-child) {
+  margin-right: 27px;
+}
+.social-box .txt {
+  font-size: 15px;
+}
+.txt-color {
+  color: #c19a5b;
+  font-weight: 600;
+}
+.txt-color {
+  font-size: 140%;
+}
+.frame-footer {
+  position: relative;
+  z-index: 1;
+}
+.frame-footer .bg-box14 {
+  position: relative;
+  z-index: 1;
+}
+.box13 {
+  position: relative;
+  z-index: 2;
+}
+.box13::after {
+  content: "";
+  position: absolute;
+  width: 1200px;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+.frame-footer .ft-menu {
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.frame-footer::before {
+  content: "";
+  position: absolute;
+  background: url("https://www.shinjuku-louvre-dental.com/images/bg-footer-menu.jpg")
+    center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 781px;
+  top: 0;
+  left: 0;
+  margin: auto;
+  z-index: -1;
+}
+/*! CSS Used from: https://www.shinjuku-louvre-dental.com/css/responsive.css */
+@media screen and (min-width: 751px) {
+  .sp {
+    display: none !important;
+  }
+  a:not([target="_blank"]):hover {
+    opacity: 0.7;
+  }
+  a:not([href]):hover {
+    opacity: 1 !important;
+  }
+  .box14 {
+    position: relative;
+    margin-top: -128px;
+    z-index: 1;
+  }
+  .frame-footer {
+    margin-top: -30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inner {
+    width: 100%;
+    padding: 0 3%;
+  }
+  .pc {
+    display: none !important;
+  }
+  .box14-bg::before {
+    height: 70%;
+  }
+  .box14-bg .desc {
+    position: relative;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 49px 50px 39px;
+    margin-bottom: 30px;
+  }
+  .list-social li {
+    width: calc((100% / 2) - 10px);
+    margin-bottom: 20px;
+  }
+  .list-social {
+    max-width: 490px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  .list-social li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .list-social li:nth-child(2n + 2) {
+    margin-right: 0 !important;
+  }
+  .social-box {
+    padding: 7px;
+    min-height: 75px;
+  }
+  .ft-menu {
+    flex-direction: column;
+  }
+  .ft-menu-item .top {
+    margin-top: 0;
+    font-size: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+  .ft-submenu {
+    display: none;
+  }
+  .ft-menu .ft-menu-item:nth-child(1),
+  .ft-menu .ft-menu-item:nth-child(2),
+  .ft-menu .ft-menu-item:nth-child(3) {
+    margin-right: 0;
+  }
+  .ft-menu-group-tt::before {
+    display: none;
+  }
+  .ft-menu-group-tt {
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+  }
+  .ft-menu .ft-menu-item {
+    margin-bottom: 20px;
+  }
+  .ft-submenu a {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    padding: 3px 0;
+  }
+  .ft-submenu li {
+    margin-bottom: 20px;
+  }
+  .ft-submenu li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .box14-bg {
+    padding: 16px 0 40px;
+  }
+  .insta .social-box {
+    background-size: contain;
+  }
+  #footer address {
+    line-height: 1.5;
+  }
+  .ft-menu-group-tt::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background-color: #333;
+    display: block;
+    right: 20px;
+    top: -15px !important;
+    bottom: 0;
+    margin: auto;
+    left: unset;
+    transition: 0.2s linear;
+  }
+  .ft-menu-group-tt::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    background-color: #333;
+    display: block;
+    right: 13px;
+    left: unset;
+    top: -15px;
+    bottom: 0;
+    margin: auto;
+    left: unset;
+  }
+  .ft-menu-group-tt img {
+    height: auto;
+  }
+  .box14-bg {
+    height: auto;
+  }
+  .frame-footer::before {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .list-social li:not(:last-child) {
+    margin-right: 0;
+  }
+  .list-social li {
+    width: 230px;
+    margin-bottom: 8px;
+  }
+  .social-box .txt {
+    font-size: 3vw;
+  }
+  .insta .social-box .ico span {
+    padding-left: 30px;
+  }
+  .line .social-box .ico span::before,
+  .insta .social-box .ico span::before {
+    width: 25px;
+    height: 25px;
+  }
+  .social-box .ico span {
+    padding-left: 30px;
+  }
+  .social-txt {
+    font-size: 12px;
+    padding-left: 14px;
+  }
+  .insta .social-box {
+    background: url(https://www.shinjuku-louvre-dental.com/images/border-insta.jpg)
+      center center no-repeat;
+    background-size: contain;
+  }
+  .box14-bg .desc {
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+  .social-txt::before {
+    width: 10px;
+  }
+  .social-box {
+    padding: 6px;
+    height: 80px;
+  }
+  .list-social {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ft-menu-item .top {
+    font-size: 16px;
+  }
+  .ft-menu-group-tt .jp {
+    font-size: 120%;
+  }
+  .ft-submenu a {
+    font-size: 14px;
+  }
+}

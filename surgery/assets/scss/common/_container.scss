@@ -1,0 +1,20 @@
+.content-container {
+  &-s {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(calc((800 / 1440) * 100vw), 800px);
+    max-width: 800px;
+  }
+  &-m {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(calc((1024 / 1440) * 100vw), 1024px);
+    max-width: 1024px;
+  }
+  &-l {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(calc((1200 / 1440) * 100vw), 1200px);
+    max-width: 1200px;
+  }
+}

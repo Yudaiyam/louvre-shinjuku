@@ -1,0 +1,68 @@
+.representative {
+  padding: 60px 0;
+  background-color: #f5fcff;
+  @include tab {
+    padding: 120px 0;
+  }
+  .representative-heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    @include tab {
+      font-size: 48px;
+      margin-bottom: 60px;
+    }
+    .representative-heading-small {
+      font-size: 24px;
+      @include tab {
+        font-size: 36px;
+      }
+    }
+  }
+  .representative-container {
+    gap: 32px;
+    width: 80%;
+    @include tab {
+      gap: 64px;
+    }
+    .representative-img {
+      width: 50%;
+      max-width: 450px;
+      @include tab {
+        width: auto;
+      }
+    }
+    .representative-text {
+      .representative-subheading {
+        color: #00a4ff;
+        font-size: 18px;
+        margin-bottom: 16px;
+        @include tab {
+          font-size: 24px;
+          margin-bottom: 24px;
+        }
+      }
+      .representative-paragraph {
+        font-size: 14px;
+        margin-bottom: 16px;
+        @include tab {
+          font-size: 16px;
+          margin-bottom: 24px;
+        }
+      }
+      .representative-position {
+        font-size: 14px;
+        margin-bottom: 16px;
+        @include tab {
+          font-size: 16px;
+          margin-bottom: 24px;
+        }
+      }
+      .representative-name {
+        font-size: 24px;
+        @include tab {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}

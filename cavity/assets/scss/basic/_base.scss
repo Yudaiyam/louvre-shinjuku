@@ -1,0 +1,40 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+  margin-inline: auto;
+  max-width: 1920px;
+}
+img,
+picture {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+a,
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+li {
+  color: $dark-blue;
+}
+p {
+  margin: 0;
+}

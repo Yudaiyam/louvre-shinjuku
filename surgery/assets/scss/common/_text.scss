@@ -1,0 +1,63 @@
+.text {
+  &-color {
+    &-lb {
+      color: $light-blue;
+    }
+    &-gold {
+      color: $gold;
+    }
+  }
+
+  &-bg {
+    &-navy {
+      display: inline;
+      background: linear-gradient(transparent 40%, $navy 60%);
+    }
+  }
+}
+
+.lh {
+  &-100 {
+    @include line-height(100);
+  }
+  &-130 {
+    @include line-height(130);
+  }
+  &-140 {
+    @include line-height(140);
+  }
+  &-150 {
+    @include line-height(150);
+  }
+  &-160 {
+    @include line-height(160);
+  }
+  &-180 {
+    @include line-height(180);
+  }
+  &-200 {
+    @include line-height(200);
+  }
+  &-250 {
+    @include line-height(200);
+  }
+  &-300 {
+    @include line-height(300);
+  }
+}
+
+.ls {
+  &-4 {
+    @include letter-spacing(4);
+  }
+  &-10 {
+    @include letter-spacing(10);
+  }
+}
+
+.note {
+  font-size: 10px;
+  @include tab {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,11 @@
+.bg {
+  &-ly {
+    background-color: $light-yellow;
+  }
+  &-lb {
+    background-color: $light-blue;
+  }
+  &-db {
+    background-color: $dark-blue;
+  }
+}

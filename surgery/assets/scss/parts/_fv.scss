@@ -1,0 +1,131 @@
+.fv {
+  position: relative;
+  width: 100%;
+  padding-top: 60px;
+  @include tab {
+    padding-top: 80px;
+  }
+  .fv-bg {
+    width: 100%;
+  }
+  .fv-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    .fv-content {
+      position: absolute;
+      width: 90%;
+      left: 50%;
+      bottom: 60px;
+      transform: translateX(-50%);
+      box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.15);
+      @include tab {
+        top: auto;
+        left: auto;
+        right: 50px;
+        transform: translateX(0);
+        width: 532px;
+      }
+      @include pc {
+        left: 50%;
+      }
+      .fv-intro {
+        padding: 20px 10px 10px 10px;
+        border-bottom: 2px solid $dark-blue;
+        background-color: #fff;
+        border-radius: 4px 4px 0 0;
+        @include tab {
+          padding: 40px 40px 20px 40px;
+        }
+        .fv-tags-wrapper {
+          gap: 4px;
+          @include tab {
+            gap: 8px;
+          }
+          .fv-tag {
+            padding: 4px 8px;
+            border: 1px solid $gold;
+            @include tab {
+              padding: 8px 16px;
+              border: 2px solid $gold;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+              @include tab {
+                font-size: 20px;
+                line-height: 30px;
+              }
+              .text-large {
+                font-size: 20px;
+
+                @include tab {
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+        }
+        .fv-heading {
+          font-size: 32px;
+          line-height: 1.4;
+          @include tab {
+            font-size: 54px;
+          }
+          .fv-heading-small {
+            font-size: 14px;
+            @include tab {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .fv-about {
+        padding: 20px 10px 10px 10px;
+        gap: 12px;
+        background-color: #fff;
+        border-radius: 0 0 4px 4px;
+        @include tab {
+          gap: 16px;
+          padding: 40px 40px 20px 40px;
+        }
+        .fv-about-img {
+          width: 100px;
+          flex-shrink: 0;
+        }
+        .fv-about-text {
+          h2 {
+            font-size: 12px;
+            @include tab {
+              font-size: 16px;
+            }
+          }
+          p {
+            font-size: 12px;
+            @include tab {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .fv-fukidashi {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        top: -84px;
+        left: 0px;
+        z-index: 2;
+        @include tab {
+          width: 160px;
+          height: auto;
+          top: -124px;
+          left: -70px;
+        }
+      }
+    }
+  }
+}
