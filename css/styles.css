@@ -1887,13 +1887,20 @@ body {
 .banner-container-middle .banner-img {
   width: 100%;
 }
+.banner-slide {
+  display: none;
+}
+.banner-slide.slick-initialized {
+  display: block;
+}
+
 .banner-container-bottom {
-  width: 90%;
+  width: 100%;
   margin-inline: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+}
+.banner-container-bottom .banner-img {
+  width: 540px;
+  padding: 0 20px;
 }
 .banner-img {
   transition: 0.3s all ease;

@@ -600,6 +600,9 @@
   .banner-container-bottom {
     flex-direction: column;
   }
+  .banner-container-bottom .banner-img {
+    width: 360px;
+  }
 
   .bg-box2 {
     flex-direction: column;

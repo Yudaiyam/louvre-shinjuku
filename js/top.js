@@ -90,4 +90,9 @@ $(window).on("load resize", function () {
     $(".box4-item-content").matchHeight();
   }
 });
-$(".slide-items").slick();
+$(".banner-slide").slick({
+  variableWidth: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  centerMode: true,
+});
