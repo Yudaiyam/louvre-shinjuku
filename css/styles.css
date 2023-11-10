@@ -1893,12 +1893,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
-
-.banner-container-bottom .banner-img {
-  width: 100%;
+.banner-img a {
+  transition: 0.3s all ease;
 }
-
+.banner-img a:hover {
+  opacity: 0.8;
+  transform: translate(0, 0) scale(1.05);
+}
 .box5-bnr .box-list-link a::before {
   right: 23px;
 }

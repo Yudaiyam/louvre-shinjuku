@@ -261,7 +261,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <img src="../images/banner_invisalign.jpg" alt="新宿ルーブル歯科・矯正歯科には「矯正認定医」が在籍しております">
                     </div>
                 </div>
-                <div class="banner-container-botttom">
+                <div class="banner-container-bottom">
                     <div class="banner-img"><a href="./cavity"><img src="../images/banner_cavity.jpg" alt="お客様によりそう虫歯治療。痛みを軽減。歯の神経を守る。虫歯を回避。削る量を最小限に。"></a></div>
                     <div class="banner-img"><a href="./surgery"><img src="../images/banner_surgery.jpg" alt="短時間で安心安全な親知らず治療。最短1分。痛みを感じない。熟練のドクターが治療。"></a></div>
                     <div class="banner-img"><a href="./whitening"><img src="../images/banner_whitening.jpg" alt="ホワイトニング治療であなたの笑顔の力と輝きを手に入れよう！ホームホワイトニング：33,000円。オフィスホワイトニング：33,000円。デュアルホワイトニング：66,000円。"></a></div>
