@@ -18,8 +18,7 @@ picture {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 a,
@@ -70,6 +69,9 @@ p {
 }
 .text-color-gold {
   color: #c19a5b;
+}
+.text-color-lblack {
+  color: #333;
 }
 .text-bg-navy {
   display: inline;
@@ -1504,7 +1506,6 @@ p {
 .cta01 .cta01-subheading {
   font-size: 12px;
   position: relative;
-  width: -moz-fit-content;
   width: fit-content;
 }
 @media screen and (min-width: 768px) {
@@ -1686,7 +1687,6 @@ p {
 .cta02 .cta02-wrapper .cta02-subheading {
   font-size: 12px;
   position: relative;
-  width: -moz-fit-content;
   width: fit-content;
 }
 @media screen and (min-width: 768px) {
@@ -1978,7 +1978,6 @@ p {
 }
 @media screen and (min-width: 768px) {
   .reason .reason-container .reason-block .reason-text {
-    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto;
   }
@@ -2160,7 +2159,6 @@ p {
   border-radius: 2px;
   overflow: hidden;
   margin-right: 4px;
-  width: -moz-fit-content;
   width: fit-content;
 }
 @media screen and (min-width: 768px) {
