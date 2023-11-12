@@ -133,9 +133,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <span class="jp txt-color">診療メニュー</span>
                                     </a>
                                     <ul class="ft-submenu">
-                                        <li><a href="./treatment/"><span>虫歯治療・根管治療</span></a></li>
+                                        <li><a href="./cavity/"><span>虫歯治療</span></a></li>
+                                        <li><a href="./treatment/"><span>根管治療</span></a></li>
+                                        <li><a href="./surgery/"><span>親知らず抜歯</span></a></li>
                                         <li><a href="./treatment/preventive.html"><span>予防歯科・歯のクリーニング</span></a></li>
-                                        <li><a href="./treatment/whitening.html"><span>ホワイトニング</span></a></li>
+                                        <li><a href="./whitening/"><span>ホワイトニング</span></a></li>
                                         <li><a href="./treatment/aesthetic.html"><span>審美歯科・セラミック治療</span></a></li>
                                         <li><a href="./treatment/surgery.html"><span>口腔外科（親知らずの抜歯）</span></a></li>
                                         <li><a href="./treatment/implant.html"><span>インプラント治療</span></a></li>
@@ -1148,9 +1150,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <span class="jp txt-color">診療メニュー</span>
                                         </a>
                                         <ul class="ft-submenu">
-                                            <li><a href="./treatment/"><span>虫歯治療・根管治療</span></a></li>
+                                            <li><a href="./cavity/"><span>虫歯治療</span></a></li>
+                                            <li><a href="./treatment/"><span>根管治療</span></a></li>
+                                            <li><a href="./surgery/"><span>親知らず抜歯</span></a></li>
                                             <li><a href="./treatment/preventive.html"><span>予防歯科・歯のクリーニング</span></a></li>
-                                            <li><a href="./treatment/whitening.html"><span>ホワイトニング</span></a></li>
+                                            <li><a href="./whitening/"><span>ホワイトニング</span></a></li>
                                             <li><a href="./treatment/aesthetic.html"><span>審美歯科・セラミック治療</span></a></li>
                                             <li><a href="./treatment/surgery.html"><span>口腔外科（親知らずの抜歯）</span></a></li>
                                             <li><a href="./treatment/implant.html"><span>インプラント治療</span></a></li>
