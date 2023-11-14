@@ -1,0 +1,33 @@
+.section-heading {
+  position: relative;
+  margin-bottom: 48px;
+  @include tab {
+    margin-bottom: 90px;
+  }
+  h2 {
+    font-size: 20px;
+    @include tab {
+      font-size: 36px;
+    }
+    .section-heading-large {
+      font-size: 28px;
+      @include tab {
+        font-size: 48px;
+      }
+    }
+  }
+  .section-heading-bg {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(192, 192, 192, 0.15);
+    letter-spacing: 0.3em;
+    font-family: "Jost", sans-serif;
+    font-size: min(calc((60 / 390) * 100vw), 60px);
+    @include tab {
+      top: 0;
+      font-size: min(calc((200 / 1440) * 100vw), 200px);
+    }
+  }
+}

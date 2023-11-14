@@ -1,0 +1,83 @@
+.reserve {
+  padding: 60px 0;
+  background-color: #f5fcff;
+  @include tab {
+    padding: 120px 0;
+  }
+  .reserve-heading {
+    margin-bottom: 90px;
+  }
+  .reserve-container {
+    gap: 40px;
+    @include tab {
+      gap: 24px;
+    }
+    .reserve-block {
+      width: 100%;
+      max-width: 500px;
+      .clinic-name {
+        font-size: 18px;
+        padding: 8px 0;
+        margin-bottom: 12px;
+        @include tab {
+          padding: 12px 0;
+          margin-bottom: 16px;
+        }
+      }
+      .clinic-info-wrapper {
+        gap: 20px;
+        .clinic-img {
+          width: 100%;
+          @include tab {
+            width: 200px;
+          }
+        }
+        .clinic-info-name {
+          font-size: 16px;
+          margin-bottom: 12px;
+          @include tab {
+            font-size: 18px;
+            margin-bottom: 16px;
+          }
+        }
+        .clinic-reserve-btn {
+          width: 250px;
+          padding: 8px 0;
+          box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+          transition: 0.3s all ease;
+          position: relative;
+          @include tab {
+            padding: 12px 0;
+          }
+          &:hover {
+            box-shadow: none;
+            margin-top: 4px;
+            margin-bottom: -4px;
+            .arrow {
+              right: 16px;
+            }
+          }
+          p {
+            font-size: 14px;
+            @include tab {
+              font-size: 16px;
+            }
+            span {
+              font-size: 20px;
+              @include tab {
+                font-style: 24px;
+              }
+            }
+          }
+          .arrow {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            transition: 0.3s all ease;
+          }
+        }
+      }
+    }
+  }
+}

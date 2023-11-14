@@ -1,0 +1,14 @@
+.border-radius {
+  &-4 {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  &-8 {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  &-16 {
+    border-radius: 16px;
+    overflow: hidden;
+  }
+}

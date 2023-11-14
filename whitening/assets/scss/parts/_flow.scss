@@ -1,0 +1,75 @@
+.flow {
+  padding: 30px 0;
+  background-image: url("../img/flow-bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include tab {
+    padding: 50px 0 60px;
+  }
+  .flow-block {
+    border: 1px solid #d0deff;
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 16px 12px;
+    margin-bottom: 16px;
+    @include tab {
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .flow-block-heading {
+      font-size: 20px;
+      margin-bottom: 12px;
+      position: relative;
+      padding-left: 40px;
+      @include tab {
+        font-size: 24px;
+      }
+      .flow-block-heading-num {
+        font-family: "Open Sans", sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 2px;
+        transform: translateY(-50%);
+        font-size: 28px;
+        padding: 2px 8px;
+        @include tab {
+          font-size: 36px;
+          padding: 2px 10px;
+          left: -12px;
+        }
+      }
+    }
+    .flow-block-wrapper {
+      gap: 12px;
+      @include tab {
+        gap: 30px;
+      }
+      .flow-block-text {
+        .flow-block-desc {
+          font-size: 14px;
+
+          @include tab {
+            font-size: 16px;
+            padding-left: 40px;
+          }
+        }
+        .flow-block-note {
+          font-size: 10px;
+
+          @include tab {
+            font-size: 12px;
+            padding-left: 44px;
+          }
+        }
+      }
+      .flow-img {
+        width: 80%;
+        @include tab {
+          width: 300px;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}

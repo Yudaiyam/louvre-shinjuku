@@ -1,0 +1,11 @@
+.lazy {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  &_bottom {
+    transform: translateY(80px);
+  }
+}
+.on {
+  opacity: 1;
+  transform: none;
+}

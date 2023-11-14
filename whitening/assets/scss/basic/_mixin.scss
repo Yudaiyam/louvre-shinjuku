@@ -1,0 +1,39 @@
+@mixin xs {
+  @media screen and (max-width: ($xs)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media screen and (min-width: ($tab)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin text-size($size) {
+  font-size: clamp(
+    calc(10px + (#{$size}px * 0.1)),
+    calc(#{$size}/ 1440 * 100vw),
+    #{$size}px
+  );
+}
+
+@mixin margin-bottom($margin) {
+  margin-bottom: #{$margin}px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: #{$margin/2}px;
+  }
+}
+
+@mixin line-height($height) {
+  line-height: calc(#{$height} / 100);
+}
+
+@mixin letter-spacing($space) {
+  letter-spacing: calc(#{$space}em / 100);
+}

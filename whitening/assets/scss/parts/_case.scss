@@ -1,0 +1,103 @@
+.case {
+  background-color: #f5fcff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include tab {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .case-heading {
+    margin-bottom: 60px;
+    @include tab {
+      margin-bottom: 90px;
+    }
+  }
+  .case-inner {
+    gap: 16px;
+    .case-block {
+      box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.15);
+      padding: 30px 20px;
+      @include tab {
+        padding: 40px;
+      }
+      .case-num {
+        width: 80%;
+        font-size: 20px;
+        position: relative;
+        margin-bottom: 20px;
+        padding: 4px 0 10px;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background-color: #fff;
+          border-radius: 50%;
+          top: 50%;
+          left: 24px;
+          transform: translateY(-50%);
+          @include tab {
+            left: 20px;
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background-color: #fff;
+          border-radius: 50%;
+          top: 50%;
+          right: 24px;
+          transform: translateY(-50%);
+          @include tab {
+            right: 20px;
+          }
+        }
+        @include tab {
+          width: 72%;
+          font-size: 24px;
+          margin-bottom: 24px;
+        }
+        .num {
+          font-family: "Open Sans", sans-serif;
+          font-size: 28px;
+          margin-left: 2px;
+          @include tab {
+            font-size: 40px;
+            margin-left: 4px;
+          }
+        }
+      }
+      .case-img {
+        margin: 0 auto 20px;
+        @include tab {
+          margin: 0 auto 28px;
+        }
+      }
+      .case-table {
+        width: 100%;
+        background-color: #fff;
+        tr {
+          &:nth-child(odd) {
+            background-color: #ebf5ff;
+          }
+          th {
+            border-right: 1px solid #d0e8ff;
+            font-size: 14px;
+            vertical-align: middle;
+            padding: 8px 0;
+            @extend .ls-4;
+          }
+          td {
+            font-size: 14px;
+            vertical-align: middle;
+            padding: 8px 0;
+            @extend .ls-4;
+            @extend .lh-130;
+          }
+        }
+      }
+    }
+  }
+}

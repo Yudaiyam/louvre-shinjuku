@@ -1,0 +1,79 @@
+.worry {
+  position: relative;
+  .worry-bg {
+    width: 100%;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    source,
+    img {
+      width: 100%;
+    }
+  }
+  .worry-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(80%, 1200px);
+    @include tab {
+      top: 50%;
+    }
+    .worry-content {
+      background-color: $dark-blue;
+      width: 100%;
+      padding: 30px 20px;
+      @include tab {
+        width: 56%;
+        margin-left: auto;
+        padding: 24px 20px 24px 24px;
+      }
+      .worry-content-heading {
+        margin-bottom: 16px;
+        font-size: 20px;
+        @include tab {
+          margin-bottom: 20px;
+          font-size: 28px;
+        }
+      }
+      .worry-content-list {
+        margin-bottom: 16px;
+        @include tab {
+          margin-bottom: 20px;
+        }
+        li {
+          margin-bottom: 4px;
+          font-size: 16px;
+          @include tab {
+            font-size: 18px;
+          }
+        }
+      }
+      .worry-content-paragraph {
+        font-size: 16px;
+        margin-bottom: 16px;
+        @include tab {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+      }
+      .worry-content-note {
+        font-size: 10px;
+        @include tab {
+          font-size: 12px;
+        }
+        .worry-content-note-large {
+          font-size: 12px;
+          @include tab {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

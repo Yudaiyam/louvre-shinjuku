@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Open+Sans:ital,wght@0,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+@import "basic/var";
+@import "basic/mixin";
+@import "basic/base";
+
+@import "common/container";
+@import "common/text";
+@import "common/border-radius";
+@import "common/background";
+@import "common/margin";
+@import "common/animation";
+@import "common/header";
+@import "common/footer";
+@import "common/section-heading";
+
+@import "parts/fv";
+@import "parts/cta";
+@import "parts/worry";
+@import "parts/compare";
+@import "parts/reason";
+@import "parts/plan";
+@import "parts/flow";
+@import "parts/case";
+@import "parts/representative";
+@import "parts/faq";
+@import "parts/reserve";

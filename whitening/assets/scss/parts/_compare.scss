@@ -1,0 +1,122 @@
+.compare {
+  position: relative;
+  .compare-bg {
+    filter: blur(6px);
+    opacity: 0.4;
+  }
+  .compare-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 120px 0 30px;
+    @include tab {
+      padding: 160px 0 60px;
+    }
+    .compare-heading {
+      font-size: 24px;
+      position: relative;
+      margin-bottom: 20px;
+      @include tab {
+        font-size: 36px;
+        width: fit-content;
+        margin: 0 auto 40px;
+      }
+      .compare-fukidashi {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -90px;
+        left: 20px;
+        @include tab {
+          width: 120px;
+          height: 120px;
+          top: -124px;
+          left: -100px;
+        }
+      }
+    }
+    .compare-inner {
+      gap: 40px;
+      position: relative;
+      margin-bottom: 20px;
+      @include tab {
+        gap: 120px;
+        margin-bottom: 40px;
+      }
+      &:before {
+        position: absolute;
+        content: "\f078";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 20px;
+        color: $light-blue;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include tab {
+          font-size: 32px;
+          transform: translate(-50%, -50%) rotate(-90deg);
+        }
+      }
+      .compare-box {
+        position: relative;
+        &:first-child {
+          .compare-box-text {
+            background-color: $light-yellow;
+          }
+        }
+        &:last-child {
+          .compare-box-text {
+            background-color: $light-blue;
+          }
+        }
+        .compare-img {
+          @include tab {
+            width: min(calc((540 / 1440) * 100vw), 540px);
+          }
+        }
+        .compare-box-text {
+          font-family: "YuMincho", "Times New Roman", "Hiragino Mincho ProN",
+            "Yu Mincho", "MS PMincho", serif;
+          position: absolute;
+          width: 100%;
+          padding: 4px 0;
+          text-transform: capitalize;
+          font-size: 18px;
+          bottom: 0;
+          left: 0;
+          @include tab {
+            padding: 10px 0;
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+  .compare-text-small {
+    font-size: 14px;
+    @include tab {
+      font-size: 28px;
+    }
+  }
+  .compare-text-large {
+    font-size: 18px;
+    @include tab {
+      font-size: 36px;
+    }
+    .num {
+      font-size: 24px;
+      @include tab {
+        font-size: 48px;
+      }
+    }
+    .small {
+      font-size: 14px;
+      @include tab {
+        font-size: 28px;
+      }
+    }
+  }
+}
