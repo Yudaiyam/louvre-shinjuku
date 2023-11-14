@@ -27,7 +27,7 @@
         background-color: #fff;
         border-radius: 50%;
         top: 50%;
-        left: 14px;
+        left: 6px;
         transform: translateY(-50%);
         @include tab {
           left: 20px;
@@ -41,7 +41,7 @@
         background-color: #fff;
         border-radius: 50%;
         top: 50%;
-        right: 14px;
+        right: 6px;
         transform: translateY(-50%);
         @include tab {
           right: 20px;
