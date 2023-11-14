@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
   margin-inline: auto;
   max-width: 1920px;
 }
@@ -68,6 +69,9 @@ p {
 .text-color-lb {
   color: #8fd2f7;
 }
+.text-color-db {
+  color: #1d2c51;
+}
 .text-color-gold {
   color: #c19a5b;
 }
@@ -82,7 +86,8 @@ p {
 .lh-100 {
   line-height: calc(100 / 100);
 }
-.lh-130, .case .case-inner-bottom .case-block .case-table tr td {
+.lh-130,
+.case .case-inner-bottom .case-block .case-table tr td {
   line-height: calc(130 / 100);
 }
 .lh-140 {
@@ -107,7 +112,9 @@ p {
   line-height: calc(300 / 100);
 }
 
-.ls-4, .case .case-inner-bottom .case-block .case-table tr td, .case .case-inner-bottom .case-block .case-table tr th {
+.ls-4,
+.case .case-inner-bottom .case-block .case-table tr td,
+.case .case-inner-bottom .case-block .case-table tr th {
   letter-spacing: calc(4em / 100);
 }
 .ls-10 {
@@ -997,7 +1004,8 @@ p {
 
 .insta .social-box {
   border: none;
-  background: url("https://www.shinjuku-louvre-dental.com/images/border-insta.jpg") center center no-repeat;
+  background: url("https://www.shinjuku-louvre-dental.com/images/border-insta.jpg")
+    center center no-repeat;
 }
 
 .youtube .social-box,
@@ -1027,14 +1035,16 @@ p {
 }
 
 .line .social-box .ico span::before {
-  background: url("https://www.shinjuku-louvre-dental.com/images/ico-line.png") center center no-repeat;
+  background: url("https://www.shinjuku-louvre-dental.com/images/ico-line.png")
+    center center no-repeat;
   width: 30px;
   height: 30px;
   background-size: cover;
 }
 
 .insta .social-box .ico span::before {
-  background: url("https://www.shinjuku-louvre-dental.com/images/ico-insta.png") center center no-repeat;
+  background: url("https://www.shinjuku-louvre-dental.com/images/ico-insta.png")
+    center center no-repeat;
   width: 30px;
   height: 30px;
   background-size: cover;
@@ -1106,7 +1116,8 @@ p {
 .frame-footer::before {
   content: "";
   position: absolute;
-  background: url("https://www.shinjuku-louvre-dental.com/images/bg-footer-menu.jpg") center no-repeat;
+  background: url("https://www.shinjuku-louvre-dental.com/images/bg-footer-menu.jpg")
+    center no-repeat;
   background-size: cover;
   width: 100%;
   height: 781px;
@@ -1121,7 +1132,7 @@ p {
   .sp {
     display: none !important;
   }
-  a:not([target=_blank]):hover {
+  a:not([target="_blank"]):hover {
     opacity: 0.7;
   }
   a:not([href]):hover {
@@ -1173,7 +1184,7 @@ p {
   .list-social li:not(:last-child) {
     margin-right: 20px;
   }
-  .list-social li:nth-child(2n+2) {
+  .list-social li:nth-child(2n + 2) {
     margin-right: 0 !important;
   }
   .social-box {
@@ -1296,7 +1307,8 @@ p {
     padding-left: 14px;
   }
   .insta .social-box {
-    background: url(https://www.shinjuku-louvre-dental.com/images/border-insta.jpg) center center no-repeat;
+    background: url(https://www.shinjuku-louvre-dental.com/images/border-insta.jpg)
+      center center no-repeat;
     background-size: contain;
   }
   .box14-bg .desc {
@@ -1453,7 +1465,14 @@ p {
   font-size: 20px;
 }
 @media screen and (min-width: 768px) {
-  .fv .fv-container .fv-content .fv-intro .fv-tags-wrapper .fv-tag p .text-large {
+  .fv
+    .fv-container
+    .fv-content
+    .fv-intro
+    .fv-tags-wrapper
+    .fv-tag
+    p
+    .text-large {
     font-size: 30px;
   }
 }
@@ -1801,12 +1820,20 @@ p {
     margin-bottom: 36px;
   }
 }
-.cta02 .cta02-wrapper .cta02-content .cta02-content-heading .cta02-content-heading-small {
+.cta02
+  .cta02-wrapper
+  .cta02-content
+  .cta02-content-heading
+  .cta02-content-heading-small {
   font-size: 14px;
   margin-bottom: 8px;
 }
 @media screen and (min-width: 768px) {
-  .cta02 .cta02-wrapper .cta02-content .cta02-content-heading .cta02-content-heading-small {
+  .cta02
+    .cta02-wrapper
+    .cta02-content
+    .cta02-content-heading
+    .cta02-content-heading-small {
     font-size: 24px;
     margin-bottom: 0;
   }
@@ -1829,12 +1856,22 @@ p {
     gap: 24px;
   }
 }
-.cta02 .cta02-wrapper .cta02-content .cta02-btn-wrapper .cta02-btn .cta02-btn-subheading {
+.cta02
+  .cta02-wrapper
+  .cta02-content
+  .cta02-btn-wrapper
+  .cta02-btn
+  .cta02-btn-subheading {
   font-size: 16px;
   margin-bottom: 4px;
 }
 @media screen and (min-width: 768px) {
-  .cta02 .cta02-wrapper .cta02-content .cta02-btn-wrapper .cta02-btn .cta02-btn-subheading {
+  .cta02
+    .cta02-wrapper
+    .cta02-content
+    .cta02-btn-wrapper
+    .cta02-btn
+    .cta02-btn-subheading {
     font-size: 18px;
     margin-bottom: 8px;
   }
@@ -1962,11 +1999,19 @@ p {
 .worry .worry-container .worry-content .worry-content-note {
   font-size: 12px;
 }
-.worry .worry-container .worry-content .worry-content-note .worry-content-note-small {
+.worry
+  .worry-container
+  .worry-content
+  .worry-content-note
+  .worry-content-note-small {
   font-size: 10px;
 }
 @media screen and (min-width: 768px) {
-  .worry .worry-container .worry-content .worry-content-note .worry-content-note-small {
+  .worry
+    .worry-container
+    .worry-content
+    .worry-content-note
+    .worry-content-note-small {
     font-size: 12px;
   }
 }
@@ -2014,11 +2059,19 @@ p {
     margin-bottom: 60px;
   }
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item {
   font-size: 14px;
   margin-bottom: 8px;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:before {
   background-color: #1d2c51;
   border-radius: 50%;
   margin-right: 4px;
@@ -2028,38 +2081,68 @@ p {
   text-align: center;
   line-height: 20px;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:first-child:before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:first-child:before {
   content: "1";
   color: #fff;
   font-weight: bold;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:nth-child(2):before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:nth-child(2):before {
   content: "2";
   color: #fff;
   font-weight: bold;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:nth-child(3):before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:nth-child(3):before {
   content: "3";
   color: #fff;
   font-weight: bold;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:nth-child(4):before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:nth-child(4):before {
   content: "4";
   color: #fff;
   font-weight: bold;
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item:nth-child(5):before {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item:nth-child(5):before {
   content: "5";
   color: #fff;
   font-weight: bold;
 }
 @media screen and (min-width: 768px) {
-  .question .question-note .question-note-wrapper .question-list .question-list-item {
+  .question
+    .question-note
+    .question-note-wrapper
+    .question-list
+    .question-list-item {
     font-size: 16px;
     width: calc(100% - 120px);
   }
 }
-.question .question-note .question-note-wrapper .question-list .question-list-item .question-list-sub li {
+.question
+  .question-note
+  .question-note-wrapper
+  .question-list
+  .question-list-item
+  .question-list-sub
+  li {
   font-weight: normal;
   list-style: disc;
   margin-left: 40px;
@@ -2160,13 +2243,23 @@ p {
     gap: 12px;
   }
 }
-.reason .reason-container .reason-block .reason-text .reason-subheading .reason-number {
+.reason
+  .reason-container
+  .reason-block
+  .reason-text
+  .reason-subheading
+  .reason-number {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 50px;
 }
 @media screen and (min-width: 768px) {
-  .reason .reason-container .reason-block .reason-text .reason-subheading .reason-number {
+  .reason
+    .reason-container
+    .reason-block
+    .reason-text
+    .reason-subheading
+    .reason-number {
     font-size: 100px;
   }
 }
@@ -2281,11 +2374,19 @@ p {
     margin-bottom: 60px;
   }
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-note-paragraph {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-note-paragraph {
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
-  .reason .reason-container .reason-note .reason-note-wrapper .reason-note-paragraph {
+  .reason
+    .reason-container
+    .reason-note
+    .reason-note-wrapper
+    .reason-note-paragraph {
     font-size: 16px;
     width: calc(100% - 220px);
   }
@@ -2300,14 +2401,29 @@ p {
     float: right;
   }
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-note-img img {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-note-img
+  img {
   width: 100%;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item {
   font-size: 14px;
   margin-bottom: 8px;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:before {
   background-color: #1d2c51;
   border-radius: 50%;
   margin-right: 4px;
@@ -2317,33 +2433,63 @@ p {
   text-align: center;
   line-height: 20px;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:first-child:before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:first-child:before {
   content: "1";
   color: #fff;
   font-weight: bold;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:nth-child(2):before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:nth-child(2):before {
   content: "2";
   color: #fff;
   font-weight: bold;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:nth-child(3):before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:nth-child(3):before {
   content: "3";
   color: #fff;
   font-weight: bold;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:nth-child(4):before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:nth-child(4):before {
   content: "4";
   color: #fff;
   font-weight: bold;
 }
-.reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item:nth-child(5):before {
+.reason
+  .reason-container
+  .reason-note
+  .reason-note-wrapper
+  .reason-list
+  .reason-list-item:nth-child(5):before {
   content: "5";
   color: #fff;
   font-weight: bold;
 }
 @media screen and (min-width: 768px) {
-  .reason .reason-container .reason-note .reason-note-wrapper .reason-list .reason-list-item {
+  .reason
+    .reason-container
+    .reason-note
+    .reason-note-wrapper
+    .reason-list
+    .reason-list-item {
     font-size: 16px;
     width: calc(100% - 120px);
   }
@@ -2703,42 +2849,66 @@ p {
     width: auto;
   }
 }
-.representative .representative-container .representative-text .representative-subheading {
+.representative
+  .representative-container
+  .representative-text
+  .representative-subheading {
   color: #00a4ff;
   font-size: 18px;
   margin-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
-  .representative .representative-container .representative-text .representative-subheading {
+  .representative
+    .representative-container
+    .representative-text
+    .representative-subheading {
     font-size: 24px;
     margin-bottom: 24px;
   }
 }
-.representative .representative-container .representative-text .representative-paragraph {
+.representative
+  .representative-container
+  .representative-text
+  .representative-paragraph {
   font-size: 14px;
   margin-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
-  .representative .representative-container .representative-text .representative-paragraph {
+  .representative
+    .representative-container
+    .representative-text
+    .representative-paragraph {
     font-size: 16px;
     margin-bottom: 24px;
   }
 }
-.representative .representative-container .representative-text .representative-position {
+.representative
+  .representative-container
+  .representative-text
+  .representative-position {
   font-size: 14px;
   margin-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
-  .representative .representative-container .representative-text .representative-position {
+  .representative
+    .representative-container
+    .representative-text
+    .representative-position {
     font-size: 16px;
     margin-bottom: 24px;
   }
 }
-.representative .representative-container .representative-text .representative-name {
+.representative
+  .representative-container
+  .representative-text
+  .representative-name {
   font-size: 24px;
 }
 @media screen and (min-width: 768px) {
-  .representative .representative-container .representative-text .representative-name {
+  .representative
+    .representative-container
+    .representative-text
+    .representative-name {
     font-size: 36px;
   }
 }
@@ -2856,7 +3026,13 @@ p {
 .plan .plan-block .plan-inner .plan-text .plan-btn-wrapper .plan-btn:hover {
   color: #1d2c51;
 }
-.plan .plan-block .plan-inner .plan-text .plan-btn-wrapper .plan-btn:hover .arrow {
+.plan
+  .plan-block
+  .plan-inner
+  .plan-text
+  .plan-btn-wrapper
+  .plan-btn:hover
+  .arrow {
   right: 8px;
 }
 .plan .plan-block .plan-inner .plan-text .plan-btn-wrapper .plan-btn .arrow {
@@ -2929,7 +3105,8 @@ p {
   text-align: start;
   width: 100%;
 }
-.section-faq .faq .question .icon-closed, .section-faq .faq .question .icon-opened {
+.section-faq .faq .question .icon-closed,
+.section-faq .faq .question .icon-opened {
   position: absolute;
   top: calc(50% + 6px);
   right: 10px;
@@ -2938,7 +3115,8 @@ p {
   font-size: 12px;
 }
 @media screen and (min-width: 768px) {
-  .section-faq .faq .question .icon-closed, .section-faq .faq .question .icon-opened {
+  .section-faq .faq .question .icon-closed,
+  .section-faq .faq .question .icon-opened {
     right: 40px;
     font-size: 20px;
   }
@@ -3020,17 +3198,29 @@ p {
     width: 200px;
   }
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-info-name {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-info-name {
   font-size: 16px;
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-  .reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-info-name {
+  .reserve
+    .reserve-container
+    .reserve-block
+    .clinic-info-wrapper
+    .clinic-info-name {
     font-size: 18px;
     margin-bottom: 16px;
   }
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn {
   width: 250px;
   padding: 8px 0;
   box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
@@ -3038,38 +3228,78 @@ p {
   position: relative;
 }
 @media screen and (min-width: 768px) {
-  .reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn {
+  .reserve
+    .reserve-container
+    .reserve-block
+    .clinic-info-wrapper
+    .clinic-reserve-btn {
     padding: 12px 0;
   }
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn:hover {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn:hover {
   box-shadow: none;
   margin-top: 4px;
   margin-bottom: -4px;
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn:hover .arrow {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn:hover
+  .arrow {
   right: 16px;
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn p {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn
+  p {
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
-  .reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn p {
+  .reserve
+    .reserve-container
+    .reserve-block
+    .clinic-info-wrapper
+    .clinic-reserve-btn
+    p {
     font-size: 16px;
   }
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn p span {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn
+  p
+  span {
   font-size: 20px;
 }
 @media screen and (min-width: 768px) {
-  .reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn p span {
+  .reserve
+    .reserve-container
+    .reserve-block
+    .clinic-info-wrapper
+    .clinic-reserve-btn
+    p
+    span {
     font-style: 24px;
   }
 }
-.reserve .reserve-container .reserve-block .clinic-info-wrapper .clinic-reserve-btn .arrow {
+.reserve
+  .reserve-container
+  .reserve-block
+  .clinic-info-wrapper
+  .clinic-reserve-btn
+  .arrow {
   position: absolute;
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
   transition: 0.3s all ease;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
