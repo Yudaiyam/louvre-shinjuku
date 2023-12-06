@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=-100">
     <meta name="format-detection" content="telephone=no">
-    <title>新宿の歯医者・矯正歯科「新宿ルーブル歯科・矯正歯科」</title>
+    <title>新宿の歯医者｜新宿ルーブル歯科・矯正歯科</title>
     <meta name="keywords" content="新宿,歯医者,歯科,矯正歯科,セラミック治療" />
-    <meta name="description" content="新宿駅東口直結の歯医者「新宿ルーブル歯科・矯正歯科」では、虫歯や親知らずの抜歯などの一般歯科に加え、矯正治療など幅広い治療に対応しています。患者さまファーストを徹底し、お悩みを解決します。" />
+    <meta name="description" content="新宿駅東口直結の歯医者「新宿ルーブル歯科・矯正歯科」では、一般歯科に加え、矯正治療やホワイトニングなど幅広い治療に対応しています。患者さまファーストを徹底し、お悩みを解決します。" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <meta name="thumbnail" content="https://www.shinjuku-louvre-dental.com/images/logo.webp" />
@@ -61,6 +61,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }]
     }
     </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
 <body id="home">
@@ -181,8 +183,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Main visual -->
             <div class="mainvisual">
               <picture class="">
-				<source media="(min-width: 769px)" srcset="images/kv_pc_ver05-12.webp">
-				<img src="images/kv_sp_ver05-12.webp" alt="理想を叶える歯科治療">
+				<source media="(min-width: 769px)" srcset="images/kv_pc_ver05-11.webp">
+				<img src="images/kv_sp_ver05-11.webp" alt="理想を叶える歯科治療">
 			  </picture>
             </div>
             <!-- End main visual -->
@@ -759,6 +761,67 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p class="box5-bnr-note">※他の治療にも対応しています</p>
                                 <p class="box-list-link"><a href="clinic/cost.html#cost05">詳しくはこちら</a></p>
                             </div>
+<!-- top 追加コンテンツ -->
+            <div class="top_add_content">
+                <h4>歯列矯正の症例</h4>
+                <p class="sub_txt">当院で行った矯正治療の症例をご紹介します。</p>
+                <div class="img_box" style="margin: 0 0 30px 0;">
+                    <div style="margin: 0 5px 0 0;">
+                        <p>Before</p>
+                    </div>
+                    <div style="margin: 0 0 0 5px;">
+                        <p>After</p>
+                    </div>                    
+                </div>
+                <div class="img_box">
+                        <img src="./images/top_add_img01.jpg" alt="症例写真">
+                    <div class="triangle"></div>
+                        <img src="./images/top_add_img02.jpg" alt="症例写真">            
+                </div>
+<div class="dropdown">
+  <div class="case_area">
+    <div><img src="images/top_add_img03.jpg" alt="症例写真"><div class="triangle"></div><img src="images/top_add_img04.jpg" alt="症例写真"></div>
+    <div><img src="images/top_add_img05.jpg" alt="症例写真"><div class="triangle"></div><img src="images/top_add_img06.jpg" alt="症例写真"></div>
+    <div><img src="images/top_add_img07.jpg" alt="症例写真"><div class="triangle"></div><img src="images/top_add_img08.jpg" alt="症例写真"></div>
+    <div><img src="images/top_add_img09.jpg" alt="症例写真"><div class="triangle"></div><img src="images/top_add_img10.jpg" alt="症例写真"></div>
+    <div class="all_result"><img src="/images/top_add_content_img01.png"><div class="triangle"></div><img src="/images/top_add_content_img02.png"></div>
+  </div>
+</div><!-- .dropdown -->
+ 
+<div class="trigger">
+  <div class="btn-more">他の角度も見たい方は<br class="sp-750">こちらをクリックしてください</div>
+</div>
+
+
+<script>
+$(function(){
+     $(".dropdown").hide();
+     $(".btn-more").click(function(){
+          $(".trigger").prev().slideToggle();
+          $(this).toggleClass("close");
+     });
+});
+</script>
+                <div class="table_box">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>治療内容</td>
+                                <td>裏側矯正</td>
+                            </tr>
+                            <tr>
+                                <td>治療費用</td>
+                                <td>748,000円</td>
+                            </tr>
+                            <tr>
+                                <td>治療期間</td>
+                                <td>2年4ヶ月</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--END top 追加コンテンツ -->
                         </div>
                     </div>
                 </div>
